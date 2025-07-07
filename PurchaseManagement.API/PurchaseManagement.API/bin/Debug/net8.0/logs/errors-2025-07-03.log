@@ -1,0 +1,63 @@
+2025-07-03 16:39:39.4871 ERROR PurchaseManagement.API.Services.VendorService Service: Error retrieving vendor with ID: -1 System.Exception: Vendor not found!
+   at PurchaseManagement.API.Services.VendorService.GetVendorByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\VendorService.cs:line 52
+2025-07-03 16:39:39.5936 ERROR PurchaseManagement.API.Controllers.VendorsController Controller: Caught service error in test endpoint System.Exception: Vendor not found!
+   at PurchaseManagement.API.Services.VendorService.GetVendorByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\VendorService.cs:line 52
+   at PurchaseManagement.API.Controllers.VendorsController.TestServiceError() in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\VendorsController.cs:line 248
+2025-07-03 17:00:00.6726 ERROR PurchaseManagement.API.Services.VendorService Service: Error retrieving vendor with ID: -1 System.Exception: Vendor not found!
+   at PurchaseManagement.API.Services.VendorService.GetVendorByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\VendorService.cs:line 52
+2025-07-03 17:00:00.7524 ERROR PurchaseManagement.API.Controllers.VendorsController Controller: Caught service error in test endpoint System.Exception: Vendor not found!
+   at PurchaseManagement.API.Services.VendorService.GetVendorByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\VendorService.cs:line 52
+   at PurchaseManagement.API.Controllers.VendorsController.TestServiceError() in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\VendorsController.cs:line 248
+2025-07-03 17:59:15.3979 ERROR PurchaseManagement.API.Controllers.ProductsController Controller: Testing error logging functionality 
+2025-07-03 18:00:00.6184 ERROR PurchaseManagement.API.Controllers.ProductsController Controller: Testing error logging functionality 
+2025-07-03 18:04:47.1145 ERROR PurchaseManagement.API.Services.ProductService Service: Error retrieving product with ID: -1 System.Collections.Generic.KeyNotFoundException: Product with ID -1 not found
+   at PurchaseManagement.API.Services.ProductService.GetProductByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\ProductService.cs:line 47
+2025-07-03 18:04:47.1947 ERROR PurchaseManagement.API.Controllers.ProductsController Controller: Caught service error in test endpoint System.Collections.Generic.KeyNotFoundException: Product with ID -1 not found
+   at PurchaseManagement.API.Services.ProductService.GetProductByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\ProductService.cs:line 47
+   at PurchaseManagement.API.Controllers.ProductsController.TestServiceError() in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\ProductsController.cs:line 231
+2025-07-03 18:05:11.5191 ERROR PurchaseManagement.API.Services.ProductService Service: Error retrieving product with ID: -1 System.Collections.Generic.KeyNotFoundException: Product with ID -1 not found
+   at PurchaseManagement.API.Services.ProductService.GetProductByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\ProductService.cs:line 47
+2025-07-03 18:05:11.5718 ERROR PurchaseManagement.API.Controllers.ProductsController Controller: Error retrieving product with ID: -1 System.Collections.Generic.KeyNotFoundException: Product with ID -1 not found
+   at PurchaseManagement.API.Services.ProductService.GetProductByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\ProductService.cs:line 47
+   at PurchaseManagement.API.Controllers.ProductsController.GetProduct(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\ProductsController.cs:line 74
+2025-07-03 18:08:37.4232 ERROR PurchaseManagement.API.Services.ProductService Service: Error retrieving product with ID: -54 System.Collections.Generic.KeyNotFoundException: Product with ID -54 not found
+   at PurchaseManagement.API.Services.ProductService.GetProductByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\ProductService.cs:line 47
+2025-07-03 18:08:37.5095 ERROR PurchaseManagement.API.Controllers.ProductsController Controller: Error retrieving product with ID: -54 System.Collections.Generic.KeyNotFoundException: Product with ID -54 not found
+   at PurchaseManagement.API.Services.ProductService.GetProductByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\ProductService.cs:line 47
+   at PurchaseManagement.API.Controllers.ProductsController.GetProduct(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\ProductsController.cs:line 74
+2025-07-03 18:12:36.8916 ERROR PurchaseManagement.API.Services.VendorService Service: Error retrieving vendor with ID: -9 System.Exception: Vendor not found!
+   at PurchaseManagement.API.Services.VendorService.GetVendorByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\VendorService.cs:line 52
+2025-07-03 18:12:36.9805 ERROR PurchaseManagement.API.Controllers.VendorsController Controller: Error retrieving vendor with ID: -9 System.Exception: Vendor not found!
+   at PurchaseManagement.API.Services.VendorService.GetVendorByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\VendorService.cs:line 52
+   at PurchaseManagement.API.Controllers.VendorsController.GetVendor(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\VendorsController.cs:line 66
+2025-07-03 21:39:32.1965 ERROR PurchaseManagement.API.Controllers.PurchaseOrdersController Failed to create purchase order Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PurchaseOrderItems_Products_ProductId". The conflict occurred in database "PurchaseManagementDB", table "dbo.Products", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:e22c82af-b266-4460-a31c-3b74f0e4ccc4
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at PurchaseManagement.API.Services.PurchaseOrderService.CreatePurchaseOrderAsync(CreatePurchaseOrderDto dto) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\PurchaseOrderService.cs:line 37
+   at PurchaseManagement.API.Controllers.PurchaseOrdersController.Create(CreatePurchaseOrderDto dto) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\PurchaseOrdersController.cs:line 74

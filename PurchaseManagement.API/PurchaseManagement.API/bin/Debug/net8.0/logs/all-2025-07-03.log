@@ -1,0 +1,275 @@
+2025-07-03 11:49:07.3124 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Getting all products 
+2025-07-03 11:49:07.3345 INFO PurchaseManagement.API.Services.ProductService Service: Getting all products 
+2025-07-03 11:49:09.8456 INFO PurchaseManagement.API.Services.ProductService Service: Successfully retrieved 2 products 
+2025-07-03 11:49:09.8456 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Successfully retrieved products 
+2025-07-03 16:32:35.3634 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 16:32:52.3452 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Getting all vendors 
+2025-07-03 16:32:52.3585 INFO PurchaseManagement.API.Services.VendorService Service: Getting all vendors 
+2025-07-03 16:32:53.7173 INFO PurchaseManagement.API.Services.VendorService Service: Successfully retrieved 0 vendors 
+2025-07-03 16:32:53.7173 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved vendors 
+2025-07-03 16:33:30.2465 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Testing vendor service error handling 
+2025-07-03 16:33:30.2465 INFO PurchaseManagement.API.Services.VendorService Service: Getting vendor with ID: -1 
+2025-07-03 16:33:30.7952 WARN PurchaseManagement.API.Services.VendorService Service: Vendor with ID -1 not found 
+2025-07-03 16:39:20.3179 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 16:39:37.8620 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Testing vendor service error handling 
+2025-07-03 16:39:37.8620 INFO PurchaseManagement.API.Services.VendorService Service: Getting vendor with ID: -1 
+2025-07-03 16:39:39.2957 WARN PurchaseManagement.API.Services.VendorService Service: Vendor with ID -1 not found 
+2025-07-03 16:39:39.4871 ERROR PurchaseManagement.API.Services.VendorService Service: Error retrieving vendor with ID: -1 System.Exception: Vendor not found!
+   at PurchaseManagement.API.Services.VendorService.GetVendorByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\VendorService.cs:line 52
+2025-07-03 16:39:39.5936 ERROR PurchaseManagement.API.Controllers.VendorsController Controller: Caught service error in test endpoint System.Exception: Vendor not found!
+   at PurchaseManagement.API.Services.VendorService.GetVendorByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\VendorService.cs:line 52
+   at PurchaseManagement.API.Controllers.VendorsController.TestServiceError() in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\VendorsController.cs:line 248
+2025-07-03 16:40:02.9838 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Checking if vendor exists with ID: -2 
+2025-07-03 16:40:02.9838 INFO PurchaseManagement.API.Services.VendorService Service: Checking if vendor exists with ID: -2 
+2025-07-03 16:40:03.3684 INFO PurchaseManagement.API.Services.VendorService Service: Vendor -2 exists: False 
+2025-07-03 16:41:07.5009 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Creating new vendor: TechNova Electronics 
+2025-07-03 16:41:07.5440 INFO PurchaseManagement.API.Services.VendorService Service: Creating new vendor: TechNova Electronics 
+2025-07-03 16:41:08.2181 INFO PurchaseManagement.API.Services.VendorService Service: Vendor created successfully with ID: 1 
+2025-07-03 16:41:08.2181 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Vendor created successfully with ID: 1 
+2025-07-03 16:41:23.8576 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Creating new vendor: TechNova Electronics 
+2025-07-03 16:41:23.8576 INFO PurchaseManagement.API.Services.VendorService Service: Creating new vendor: TechNova Electronics 
+2025-07-03 16:41:23.8857 WARN PurchaseManagement.API.Services.VendorService Service: Vendor with name TechNova Electronics already exists 
+2025-07-03 16:41:23.9669 WARN PurchaseManagement.API.Controllers.VendorsController Controller: Validation error creating vendor: Vendor with name 'TechNova Electronics' already exists 
+2025-07-03 16:41:50.2145 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Creating new vendor: TechNova 
+2025-07-03 16:41:50.2145 INFO PurchaseManagement.API.Services.VendorService Service: Creating new vendor: TechNova 
+2025-07-03 16:41:50.2410 WARN PurchaseManagement.API.Services.VendorService Service: Vendor with email alice@technova.com already exists 
+2025-07-03 16:41:50.3142 WARN PurchaseManagement.API.Controllers.VendorsController Controller: Validation error creating vendor: Vendor with email 'alice@technova.com' already exists 
+2025-07-03 16:42:12.2337 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Creating new vendor: SmartStationery Co. 
+2025-07-03 16:42:12.2337 INFO PurchaseManagement.API.Services.VendorService Service: Creating new vendor: SmartStationery Co. 
+2025-07-03 16:42:12.2513 INFO PurchaseManagement.API.Services.VendorService Service: Vendor created successfully with ID: 2 
+2025-07-03 16:42:12.2513 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Vendor created successfully with ID: 2 
+2025-07-03 16:42:23.4679 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Creating new vendor: Global Freight Ltd. 
+2025-07-03 16:42:23.4679 INFO PurchaseManagement.API.Services.VendorService Service: Creating new vendor: Global Freight Ltd. 
+2025-07-03 16:42:23.4807 INFO PurchaseManagement.API.Services.VendorService Service: Vendor created successfully with ID: 3 
+2025-07-03 16:42:23.4807 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Vendor created successfully with ID: 3 
+2025-07-03 16:42:29.8158 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Getting all vendors 
+2025-07-03 16:42:29.8158 INFO PurchaseManagement.API.Services.VendorService Service: Getting all vendors 
+2025-07-03 16:42:29.8404 INFO PurchaseManagement.API.Services.VendorService Service: Successfully retrieved 3 vendors 
+2025-07-03 16:42:29.8404 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved vendors 
+2025-07-03 16:42:57.4943 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Searching vendors with term: +1-713-555-0102 
+2025-07-03 16:42:57.4943 INFO PurchaseManagement.API.Services.VendorService Service: Searching vendors with term: +1-713-555-0102 
+2025-07-03 16:42:57.5225 INFO PurchaseManagement.API.Services.VendorService Service: Found 1 vendors matching search term: +1-713-555-0102 
+2025-07-03 16:42:57.5225 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved search results 
+2025-07-03 16:43:12.0193 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Searching vendors with term: Houston 
+2025-07-03 16:43:12.0193 INFO PurchaseManagement.API.Services.VendorService Service: Searching vendors with term: Houston 
+2025-07-03 16:43:12.0193 INFO PurchaseManagement.API.Services.VendorService Service: Found 0 vendors matching search term: Houston 
+2025-07-03 16:43:12.0193 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved search results 
+2025-07-03 16:43:27.8624 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Searching vendors with term: 789 Logistics Lane, Houston, TX 
+2025-07-03 16:43:27.8624 INFO PurchaseManagement.API.Services.VendorService Service: Searching vendors with term: 789 Logistics Lane, Houston, TX 
+2025-07-03 16:43:27.8624 INFO PurchaseManagement.API.Services.VendorService Service: Found 0 vendors matching search term: 789 Logistics Lane, Houston, TX 
+2025-07-03 16:43:27.8624 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved search results 
+2025-07-03 16:43:38.1745 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Searching vendors with term: SmartStationery Co. 
+2025-07-03 16:43:38.1745 INFO PurchaseManagement.API.Services.VendorService Service: Searching vendors with term: SmartStationery Co. 
+2025-07-03 16:43:38.1988 INFO PurchaseManagement.API.Services.VendorService Service: Found 1 vendors matching search term: SmartStationery Co. 
+2025-07-03 16:43:38.1988 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved search results 
+2025-07-03 16:43:47.9433 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Searching vendors with term: 456 Office Park Ave, Chicago, IL 
+2025-07-03 16:43:47.9433 INFO PurchaseManagement.API.Services.VendorService Service: Searching vendors with term: 456 Office Park Ave, Chicago, IL 
+2025-07-03 16:43:47.9433 INFO PurchaseManagement.API.Services.VendorService Service: Found 0 vendors matching search term: 456 Office Park Ave, Chicago, IL 
+2025-07-03 16:43:47.9433 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved search results 
+2025-07-03 16:43:54.4634 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Searching vendors with term: Bob 
+2025-07-03 16:43:54.4634 INFO PurchaseManagement.API.Services.VendorService Service: Searching vendors with term: Bob 
+2025-07-03 16:43:54.4634 INFO PurchaseManagement.API.Services.VendorService Service: Found 1 vendors matching search term: Bob 
+2025-07-03 16:43:54.4686 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved search results 
+2025-07-03 16:44:04.0278 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Searching vendors with term: Office 
+2025-07-03 16:44:04.0278 INFO PurchaseManagement.API.Services.VendorService Service: Searching vendors with term: Office 
+2025-07-03 16:44:04.0523 INFO PurchaseManagement.API.Services.VendorService Service: Found 0 vendors matching search term: Office 
+2025-07-03 16:44:04.0523 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved search results 
+2025-07-03 16:44:11.0434 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Searching vendors with term: bob@smartstationery.com 
+2025-07-03 16:44:11.0434 INFO PurchaseManagement.API.Services.VendorService Service: Searching vendors with term: bob@smartstationery.com 
+2025-07-03 16:44:11.0503 INFO PurchaseManagement.API.Services.VendorService Service: Found 1 vendors matching search term: bob@smartstationery.com 
+2025-07-03 16:44:11.0503 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved search results 
+2025-07-03 16:44:20.2549 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Searching vendors with term: Chicago 
+2025-07-03 16:44:20.2549 INFO PurchaseManagement.API.Services.VendorService Service: Searching vendors with term: Chicago 
+2025-07-03 16:44:20.2793 INFO PurchaseManagement.API.Services.VendorService Service: Found 0 vendors matching search term: Chicago 
+2025-07-03 16:44:20.2793 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved search results 
+2025-07-03 16:47:30.1119 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 16:47:38.2905 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Getting all vendors 
+2025-07-03 16:47:38.3130 INFO PurchaseManagement.API.Services.VendorService Service: Getting all vendors 
+2025-07-03 16:47:39.5847 INFO PurchaseManagement.API.Services.VendorService Service: Successfully retrieved 3 vendors 
+2025-07-03 16:47:39.5847 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved vendors 
+2025-07-03 16:48:02.0864 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Searching vendors with term: San Jose 
+2025-07-03 16:48:02.0864 INFO PurchaseManagement.API.Services.VendorService Service: Searching vendors with term: San Jose 
+2025-07-03 16:48:02.2083 INFO PurchaseManagement.API.Services.VendorService Service: Found 1 vendors matching search term: San Jose 
+2025-07-03 16:48:02.2083 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved search results 
+2025-07-03 16:48:42.7579 WARN PurchaseManagement.API.Controllers.VendorsController Controller: Vendor ID mismatch. URL ID: 6, Body ID: 0 
+2025-07-03 16:57:47.5716 INFO PurchaseManagement.API.Services.VendorService Service: Updating vendor with ID: 6 
+2025-07-03 16:57:47.6881 WARN PurchaseManagement.API.Services.VendorService Service: Attempted to update non-existent vendor with ID: 6 
+2025-07-03 16:57:47.7936 WARN PurchaseManagement.API.Controllers.VendorsController Controller: Validation error updating vendor: Vendor with ID 6 not found 
+2025-07-03 16:58:07.7081 INFO PurchaseManagement.API.Services.VendorService Service: Updating vendor with ID: 2 
+2025-07-03 16:58:07.7709 INFO PurchaseManagement.API.Services.VendorService Service: Vendor updated successfully. ID: 2 
+2025-07-03 16:58:07.7709 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Vendor updated successfully. ID: 2 
+2025-07-03 16:58:17.2545 WARN PurchaseManagement.API.Controllers.VendorsController Controller: Vendor ID mismatch. URL ID: 2, Body ID: 3 
+2025-07-03 16:58:23.2634 INFO PurchaseManagement.API.Services.VendorService Service: Updating vendor with ID: 3 
+2025-07-03 16:58:23.2806 WARN PurchaseManagement.API.Services.VendorService Service: Vendor name SmartStationery Co. already exists for another vendor 
+2025-07-03 16:58:23.3606 WARN PurchaseManagement.API.Controllers.VendorsController Controller: Validation error updating vendor: Vendor with name 'SmartStationery Co.' already exists 
+2025-07-03 16:58:39.8901 INFO PurchaseManagement.API.Services.VendorService Service: Updating vendor with ID: 3 
+2025-07-03 16:58:39.9036 WARN PurchaseManagement.API.Services.VendorService Service: Vendor email bob@smartstationery.com already exists for another vendor 
+2025-07-03 16:58:39.9660 WARN PurchaseManagement.API.Controllers.VendorsController Controller: Validation error updating vendor: Vendor with email 'bob@smartstationery.com' already exists 
+2025-07-03 16:58:59.3565 INFO PurchaseManagement.API.Services.VendorService Service: Updating vendor with ID: 3 
+2025-07-03 16:58:59.4614 INFO PurchaseManagement.API.Services.VendorService Service: Vendor updated successfully. ID: 3 
+2025-07-03 16:58:59.4616 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Vendor updated successfully. ID: 3 
+2025-07-03 16:59:21.9785 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Getting vendor with ID: 3 
+2025-07-03 16:59:21.9785 INFO PurchaseManagement.API.Services.VendorService Service: Getting vendor with ID: 3 
+2025-07-03 16:59:21.9785 INFO PurchaseManagement.API.Services.VendorService Service: Successfully retrieved vendor Smart (ID: 3) 
+2025-07-03 16:59:21.9785 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved vendor 3 
+2025-07-03 16:59:36.1606 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Deleting vendor with ID: 5 
+2025-07-03 16:59:36.1606 INFO PurchaseManagement.API.Services.VendorService Service: Deleting vendor with ID: 5 
+2025-07-03 16:59:36.1814 WARN PurchaseManagement.API.Services.VendorService Service: Attempted to delete non-existent vendor with ID: 5 
+2025-07-03 16:59:36.1814 WARN PurchaseManagement.API.Controllers.VendorsController Controller: Vendor with ID 5 not found for deletion 
+2025-07-03 16:59:40.9897 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Deleting vendor with ID: 3 
+2025-07-03 16:59:40.9897 INFO PurchaseManagement.API.Services.VendorService Service: Deleting vendor with ID: 3 
+2025-07-03 16:59:41.0526 INFO PurchaseManagement.API.Services.VendorService Service: Vendor deleted successfully. ID: 3, Name: Smart 
+2025-07-03 16:59:41.0526 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Vendor deleted successfully. ID: 3 
+2025-07-03 16:59:49.1306 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Checking if vendor exists with ID: 3 
+2025-07-03 16:59:49.1306 INFO PurchaseManagement.API.Services.VendorService Service: Checking if vendor exists with ID: 3 
+2025-07-03 16:59:49.1306 INFO PurchaseManagement.API.Services.VendorService Service: Vendor 3 exists: False 
+2025-07-03 16:59:52.3608 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Checking if vendor exists with ID: 2 
+2025-07-03 16:59:52.3608 INFO PurchaseManagement.API.Services.VendorService Service: Checking if vendor exists with ID: 2 
+2025-07-03 16:59:52.3608 INFO PurchaseManagement.API.Services.VendorService Service: Vendor 2 exists: True 
+2025-07-03 17:00:00.6405 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Testing vendor service error handling 
+2025-07-03 17:00:00.6405 INFO PurchaseManagement.API.Services.VendorService Service: Getting vendor with ID: -1 
+2025-07-03 17:00:00.6457 WARN PurchaseManagement.API.Services.VendorService Service: Vendor with ID -1 not found 
+2025-07-03 17:00:00.6726 ERROR PurchaseManagement.API.Services.VendorService Service: Error retrieving vendor with ID: -1 System.Exception: Vendor not found!
+   at PurchaseManagement.API.Services.VendorService.GetVendorByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\VendorService.cs:line 52
+2025-07-03 17:00:00.7524 ERROR PurchaseManagement.API.Controllers.VendorsController Controller: Caught service error in test endpoint System.Exception: Vendor not found!
+   at PurchaseManagement.API.Services.VendorService.GetVendorByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\VendorService.cs:line 52
+   at PurchaseManagement.API.Controllers.VendorsController.TestServiceError() in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\VendorsController.cs:line 248
+2025-07-03 17:58:50.7362 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 17:59:00.4312 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Getting products summary 
+2025-07-03 17:59:00.4312 INFO PurchaseManagement.API.Services.ProductService Service: Getting all products 
+2025-07-03 17:59:01.6773 INFO PurchaseManagement.API.Services.ProductService Service: Successfully retrieved 2 products 
+2025-07-03 17:59:01.6773 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Successfully retrieved 2 products summary 
+2025-07-03 17:59:15.3979 ERROR PurchaseManagement.API.Controllers.ProductsController Controller: Testing error logging functionality 
+2025-07-03 18:00:00.6184 ERROR PurchaseManagement.API.Controllers.ProductsController Controller: Testing error logging functionality 
+2025-07-03 18:02:23.6692 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 18:02:29.5576 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Testing service layer error handling 
+2025-07-03 18:02:29.5576 INFO PurchaseManagement.API.Services.ProductService Service: Getting product with ID: -1 
+2025-07-03 18:02:31.2183 WARN PurchaseManagement.API.Services.ProductService Service: Product with ID -1 not found 
+2025-07-03 18:04:39.9151 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 18:04:45.3957 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Testing service layer error handling 
+2025-07-03 18:04:45.3957 INFO PurchaseManagement.API.Services.ProductService Service: Getting product with ID: -1 
+2025-07-03 18:04:47.0676 WARN PurchaseManagement.API.Services.ProductService Service: Product with ID -1 not found 
+2025-07-03 18:04:47.1145 ERROR PurchaseManagement.API.Services.ProductService Service: Error retrieving product with ID: -1 System.Collections.Generic.KeyNotFoundException: Product with ID -1 not found
+   at PurchaseManagement.API.Services.ProductService.GetProductByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\ProductService.cs:line 47
+2025-07-03 18:04:47.1947 ERROR PurchaseManagement.API.Controllers.ProductsController Controller: Caught service error in test endpoint System.Collections.Generic.KeyNotFoundException: Product with ID -1 not found
+   at PurchaseManagement.API.Services.ProductService.GetProductByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\ProductService.cs:line 47
+   at PurchaseManagement.API.Controllers.ProductsController.TestServiceError() in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\ProductsController.cs:line 231
+2025-07-03 18:05:11.4732 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Getting product with ID: -1 
+2025-07-03 18:05:11.4732 INFO PurchaseManagement.API.Services.ProductService Service: Getting product with ID: -1 
+2025-07-03 18:05:11.4956 WARN PurchaseManagement.API.Services.ProductService Service: Product with ID -1 not found 
+2025-07-03 18:05:11.5191 ERROR PurchaseManagement.API.Services.ProductService Service: Error retrieving product with ID: -1 System.Collections.Generic.KeyNotFoundException: Product with ID -1 not found
+   at PurchaseManagement.API.Services.ProductService.GetProductByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\ProductService.cs:line 47
+2025-07-03 18:05:11.5718 ERROR PurchaseManagement.API.Controllers.ProductsController Controller: Error retrieving product with ID: -1 System.Collections.Generic.KeyNotFoundException: Product with ID -1 not found
+   at PurchaseManagement.API.Services.ProductService.GetProductByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\ProductService.cs:line 47
+   at PurchaseManagement.API.Controllers.ProductsController.GetProduct(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\ProductsController.cs:line 74
+2025-07-03 18:08:25.1281 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 18:08:36.0794 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Getting product with ID: -54 
+2025-07-03 18:08:36.0794 INFO PurchaseManagement.API.Services.ProductService Service: Getting product with ID: -54 
+2025-07-03 18:08:37.3867 WARN PurchaseManagement.API.Services.ProductService Service: Product with ID -54 not found 
+2025-07-03 18:08:37.4232 ERROR PurchaseManagement.API.Services.ProductService Service: Error retrieving product with ID: -54 System.Collections.Generic.KeyNotFoundException: Product with ID -54 not found
+   at PurchaseManagement.API.Services.ProductService.GetProductByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\ProductService.cs:line 47
+2025-07-03 18:08:37.5095 ERROR PurchaseManagement.API.Controllers.ProductsController Controller: Error retrieving product with ID: -54 System.Collections.Generic.KeyNotFoundException: Product with ID -54 not found
+   at PurchaseManagement.API.Services.ProductService.GetProductByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\ProductService.cs:line 47
+   at PurchaseManagement.API.Controllers.ProductsController.GetProduct(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\ProductsController.cs:line 74
+2025-07-03 18:10:50.0121 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 18:11:30.8849 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Getting product with ID: -5 
+2025-07-03 18:11:30.8849 INFO PurchaseManagement.API.Services.ProductService Service: Getting product with ID: -5 
+2025-07-03 18:11:32.1084 WARN PurchaseManagement.API.Services.ProductService Service: Product with ID -5 not found 
+2025-07-03 18:11:32.1084 WARN PurchaseManagement.API.Controllers.ProductsController Controller: Product with ID -5 not found 
+2025-07-03 18:12:25.7304 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Getting all vendors 
+2025-07-03 18:12:25.7304 INFO PurchaseManagement.API.Services.VendorService Service: Getting all vendors 
+2025-07-03 18:12:25.8334 INFO PurchaseManagement.API.Services.VendorService Service: Successfully retrieved 2 vendors 
+2025-07-03 18:12:25.8334 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved vendors 
+2025-07-03 18:12:36.6773 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Getting vendor with ID: -9 
+2025-07-03 18:12:36.6773 INFO PurchaseManagement.API.Services.VendorService Service: Getting vendor with ID: -9 
+2025-07-03 18:12:36.7508 WARN PurchaseManagement.API.Services.VendorService Service: Vendor with ID -9 not found 
+2025-07-03 18:12:36.8916 ERROR PurchaseManagement.API.Services.VendorService Service: Error retrieving vendor with ID: -9 System.Exception: Vendor not found!
+   at PurchaseManagement.API.Services.VendorService.GetVendorByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\VendorService.cs:line 52
+2025-07-03 18:12:36.9805 ERROR PurchaseManagement.API.Controllers.VendorsController Controller: Error retrieving vendor with ID: -9 System.Exception: Vendor not found!
+   at PurchaseManagement.API.Services.VendorService.GetVendorByIdAsync(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\VendorService.cs:line 52
+   at PurchaseManagement.API.Controllers.VendorsController.GetVendor(Int32 id) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\VendorsController.cs:line 66
+2025-07-03 18:13:50.1552 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 18:15:25.3082 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Getting vendor with ID: -9 
+2025-07-03 18:15:25.3082 INFO PurchaseManagement.API.Services.VendorService Service: Getting vendor with ID: -9 
+2025-07-03 18:15:26.5590 WARN PurchaseManagement.API.Services.VendorService Service: Vendor with ID -9 not found 
+2025-07-03 18:15:26.5590 WARN PurchaseManagement.API.Controllers.VendorsController Controller: Vendor with ID -9 not found 
+2025-07-03 18:15:36.6737 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Checking if vendor exists with ID: 2 
+2025-07-03 18:15:36.6748 INFO PurchaseManagement.API.Services.VendorService Service: Checking if vendor exists with ID: 2 
+2025-07-03 18:15:36.7236 INFO PurchaseManagement.API.Services.VendorService Service: Vendor 2 exists: True 
+2025-07-03 18:15:41.7579 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Checking if vendor exists with ID: 6 
+2025-07-03 18:15:41.7579 INFO PurchaseManagement.API.Services.VendorService Service: Checking if vendor exists with ID: 6 
+2025-07-03 18:15:41.8503 INFO PurchaseManagement.API.Services.VendorService Service: Vendor 6 exists: False 
+2025-07-03 18:15:49.5852 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Checking if vendor exists with ID: -9 
+2025-07-03 18:15:49.5852 INFO PurchaseManagement.API.Services.VendorService Service: Checking if vendor exists with ID: -9 
+2025-07-03 18:15:49.5852 INFO PurchaseManagement.API.Services.VendorService Service: Vendor -9 exists: False 
+2025-07-03 18:19:34.8637 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 20:38:50.3555 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 21:00:47.3622 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 21:22:30.9714 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 21:22:40.5724 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-03 21:28:29.1563 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Getting all products 
+2025-07-03 21:28:29.1563 INFO PurchaseManagement.API.Services.ProductService Service: Getting all products 
+2025-07-03 21:28:29.2505 INFO PurchaseManagement.API.Services.ProductService Service: Successfully retrieved 2 products 
+2025-07-03 21:28:29.2505 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Successfully retrieved products 
+2025-07-03 21:33:46.6164 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Creating new product: keyboard 
+2025-07-03 21:33:46.6179 INFO PurchaseManagement.API.Services.ProductService Service: Creating new product: keyboard 
+2025-07-03 21:33:46.8758 INFO PurchaseManagement.API.Services.ProductService Service: Product created successfully with ID: 4 
+2025-07-03 21:33:46.8758 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Product created successfully with ID: 4 
+2025-07-03 21:33:52.8809 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Getting all products 
+2025-07-03 21:33:52.8809 INFO PurchaseManagement.API.Services.ProductService Service: Getting all products 
+2025-07-03 21:33:52.8855 INFO PurchaseManagement.API.Services.ProductService Service: Successfully retrieved 3 products 
+2025-07-03 21:33:52.8855 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Successfully retrieved products 
+2025-07-03 21:34:07.9877 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Getting all vendors 
+2025-07-03 21:34:07.9877 INFO PurchaseManagement.API.Services.VendorService Service: Getting all vendors 
+2025-07-03 21:34:08.0585 INFO PurchaseManagement.API.Services.VendorService Service: Successfully retrieved 2 vendors 
+2025-07-03 21:34:08.0585 INFO PurchaseManagement.API.Controllers.VendorsController Controller: Successfully retrieved vendors 
+2025-07-03 21:38:56.7000 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 21:39:19.3878 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Creating purchase order for vendor ID -99 
+2025-07-03 21:39:19.3878 INFO PurchaseManagement.API.Services.PurchaseOrderService Creating purchase order for vendor ID -99 
+2025-07-03 21:39:20.7180 WARN PurchaseManagement.API.Controllers.PurchaseOrdersController Vendor with ID -99 not found 
+2025-07-03 21:39:31.4809 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Creating purchase order for vendor ID 1 
+2025-07-03 21:39:31.4809 INFO PurchaseManagement.API.Services.PurchaseOrderService Creating purchase order for vendor ID 1 
+2025-07-03 21:39:32.1965 ERROR PurchaseManagement.API.Controllers.PurchaseOrdersController Failed to create purchase order Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PurchaseOrderItems_Products_ProductId". The conflict occurred in database "PurchaseManagementDB", table "dbo.Products", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:e22c82af-b266-4460-a31c-3b74f0e4ccc4
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at PurchaseManagement.API.Services.PurchaseOrderService.CreatePurchaseOrderAsync(CreatePurchaseOrderDto dto) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\PurchaseOrderService.cs:line 37
+   at PurchaseManagement.API.Controllers.PurchaseOrdersController.Create(CreatePurchaseOrderDto dto) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\PurchaseOrdersController.cs:line 74
+2025-07-03 21:52:44.3987 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-03 21:53:02.3260 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Creating purchase order for vendor ID -99 
+2025-07-03 21:53:02.3260 INFO PurchaseManagement.API.Services.PurchaseOrderService Creating purchase order for vendor ID -99 
+2025-07-03 21:53:03.6759 WARN PurchaseManagement.API.Controllers.PurchaseOrdersController Vendor with ID -99 not found 
+2025-07-03 21:53:14.9388 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Creating purchase order for vendor ID 1 
+2025-07-03 21:53:14.9388 INFO PurchaseManagement.API.Services.PurchaseOrderService Creating purchase order for vendor ID 1 
+2025-07-03 21:53:15.0169 INFO PurchaseManagement.API.Services.ProductService Service: Checking if product exists with ID: -99 
+2025-07-03 21:53:15.0479 INFO PurchaseManagement.API.Services.ProductService Service: Product -99 exists: False 
+2025-07-03 21:53:15.1044 WARN PurchaseManagement.API.Controllers.PurchaseOrdersController Product(s) not found: -99 
+2025-07-03 21:53:42.2694 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Creating purchase order for vendor ID 1 
+2025-07-03 21:53:42.2694 INFO PurchaseManagement.API.Services.PurchaseOrderService Creating purchase order for vendor ID 1 
+2025-07-03 21:53:42.3276 INFO PurchaseManagement.API.Services.ProductService Service: Checking if product exists with ID: 1 
+2025-07-03 21:53:42.3276 INFO PurchaseManagement.API.Services.ProductService Service: Product 1 exists: True 

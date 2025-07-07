@@ -1,0 +1,604 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\services\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\services\\purchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\models\\purchaseorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\models\\purchaseorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\dtos\\purchaseorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\dtos\\purchaseorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\dtos\\purchaseorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\dtos\\purchaseorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\services\\interfaces\\ipurchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\services\\interfaces\\ipurchaseorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\controllers\\purchaseorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\controllers\\purchaseorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\controllers\\vendorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\controllers\\vendorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/MALLOUH/PurchaseManagementDB/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\models\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\models\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\services\\interfaces\\ivendorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\services\\interfaces\\ivendorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\services\\interfaces\\imappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\services\\interfaces\\imappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\services\\mappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\services\\mappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\migrations\\20250706100234_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\migrations\\20250706100234_updated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\services\\vendorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\services\\vendorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\dtos\\vendordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\dtos\\vendordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\migrations\\20250702185204_adduniqueconstrainttoproductcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\migrations\\20250702185204_adduniqueconstrainttoproductcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\migrations\\20250702164923_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\migrations\\20250702164923_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|d:\\anazeem_training\\projects\\task1\\purchasemanagement.api\\purchasemanagement.api\\migrations\\20250706133555_updated_lastlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3F4E29F-F578-40F9-A5C8-F0816C15BCAA}|PurchaseManagement.API\\PurchaseManagement.API.csproj|solutionrelative:purchasemanagement.api\\migrations\\20250706133555_updated_lastlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/MALLOUH/PurchaseManagementDB/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-07T07:22:23.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250706133555_updated_lastlogin.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Migrations\\20250706133555_updated_lastlogin.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Migrations\\20250706133555_updated_lastlogin.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Migrations\\20250706133555_updated_lastlogin.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Migrations\\20250706133555_updated_lastlogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:35:55.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\AuthService.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Services\\AuthService.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAADwv8MAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:04:08.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:02:22.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250706100234_updated.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Migrations\\20250706100234_updated.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Migrations\\20250706100234_updated.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Migrations\\20250706100234_updated.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Migrations\\20250706100234_updated.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T10:02:35.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAASwEkAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:54:36.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Services\\UserService.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\UserService.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Services\\UserService.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAnwHEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T07:23:52.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T07:20:00.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\DTOs\\UserDto.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAIA7wHUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T07:16:49.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PurchaseOrdersController.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Controllers\\PurchaseOrdersController.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Controllers\\PurchaseOrdersController.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Controllers\\PurchaseOrdersController.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Controllers\\PurchaseOrdersController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAIwGcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T16:41:34.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PurchaseOrderService.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\PurchaseOrderService.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Services\\PurchaseOrderService.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\PurchaseOrderService.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Services\\PurchaseOrderService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAIwHIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T16:34:29.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPurchaseOrderService.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\Interfaces\\IPurchaseOrderService.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Services\\Interfaces\\IPurchaseOrderService.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\Interfaces\\IPurchaseOrderService.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Services\\Interfaces\\IPurchaseOrderService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T16:34:00.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PurchaseOrderItemDto.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\DTOs\\PurchaseOrderItemDto.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\DTOs\\PurchaseOrderItemDto.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\DTOs\\PurchaseOrderItemDto.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\DTOs\\PurchaseOrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T16:32:22.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PurchaseOrderDto.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\DTOs\\PurchaseOrderDto.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\DTOs\\PurchaseOrderDto.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\DTOs\\PurchaseOrderDto.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\DTOs\\PurchaseOrderDto.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA0wCUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T16:31:58.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MappingService.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\MappingService.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Services\\MappingService.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\MappingService.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Services\\MappingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T14:27:36.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IMappingService.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\Interfaces\\IMappingService.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Services\\Interfaces\\IMappingService.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\Interfaces\\IMappingService.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Services\\Interfaces\\IMappingService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T14:26:33.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "VendorDto.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\DTOs\\VendorDto.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\DTOs\\VendorDto.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\DTOs\\VendorDto.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\DTOs\\VendorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T14:02:42.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\DTOs\\ProductDto.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T14:02:29.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VendorsController.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Controllers\\VendorsController.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Controllers\\VendorsController.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Controllers\\VendorsController.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Controllers\\VendorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T13:26:31.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VendorService.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\VendorService.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Services\\VendorService.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\VendorService.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Services\\VendorService.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAwwPoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T10:39:11.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IVendorService.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\Interfaces\\IVendorService.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Services\\Interfaces\\IVendorService.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\Interfaces\\IVendorService.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Services\\Interfaces\\IVendorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:55:20.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T19:10:16.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Services\\ProductService.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Services\\ProductService.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAwwMoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T07:59:03.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250702185204_AddUniqueConstraintToProductCode.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Migrations\\20250702185204_AddUniqueConstraintToProductCode.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Migrations\\20250702185204_AddUniqueConstraintToProductCode.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Migrations\\20250702185204_AddUniqueConstraintToProductCode.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Migrations\\20250702185204_AddUniqueConstraintToProductCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:52:05.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PurchaseManagement.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-02T17:34:40.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T17:23:26.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "nlog.config",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\nlog.config",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\nlog.config",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\nlog.config",
+              "RelativeToolTip": "PurchaseManagement.API\\nlog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-02T17:15:02.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250702164923_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Migrations\\20250702164923_InitialCreate.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Migrations\\20250702164923_InitialCreate.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Migrations\\20250702164923_InitialCreate.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Migrations\\20250702164923_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T16:49:23.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Program.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Program.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T16:44:46.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\appsettings.json",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\appsettings.json",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\appsettings.json",
+              "RelativeToolTip": "PurchaseManagement.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-02T16:38:54.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T16:33:17.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PurchaseOrderItem.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Models\\PurchaseOrderItem.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Models\\PurchaseOrderItem.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Models\\PurchaseOrderItem.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Models\\PurchaseOrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T16:05:20.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PurchaseOrder.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Models\\PurchaseOrder.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Models\\PurchaseOrder.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Models\\PurchaseOrder.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Models\\PurchaseOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:56:14.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Models\\Product.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Models\\Product.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:54:24.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Vendor.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Models\\Vendor.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Models\\Vendor.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Models\\Vendor.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Models\\Vendor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:53:31.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Users.cs",
+              "DocumentMoniker": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "PurchaseManagement.API\\Models\\Users.cs",
+              "ToolTip": "D:\\Anazeem_training\\projects\\Task1\\PurchaseManagement.API\\PurchaseManagement.API\\Models\\Users.cs",
+              "RelativeToolTip": "PurchaseManagement.API\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:48:30.839Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

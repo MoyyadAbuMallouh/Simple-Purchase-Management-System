@@ -1,0 +1,275 @@
+2025-07-06 11:51:34.5649 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 13:03:04.2992 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 13:04:07.3239 INFO PurchaseManagement.API.Services.UserService Service: Creating new user: moayyad 
+2025-07-06 13:04:09.0897 INFO PurchaseManagement.API.Services.UserService Service: User created successfully with ID: 1 
+2025-07-06 13:36:38.3848 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 13:38:33.2507 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 13:39:06.1212 INFO PurchaseManagement.API.Services.UserService Service: Getting user with ID: 1 
+2025-07-06 13:39:06.2206 INFO PurchaseManagement.API.Services.UserService Service: Successfully retrieved user moayyad (ID: 1) 
+2025-07-06 13:42:11.2309 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 13:57:31.6689 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 13:58:57.1781 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Getting all products 
+2025-07-06 13:58:57.1808 INFO PurchaseManagement.API.Services.ProductService Service: Getting all products 
+2025-07-06 13:58:57.5821 INFO PurchaseManagement.API.Services.ProductService Service: Successfully retrieved 3 products 
+2025-07-06 13:58:57.5821 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Successfully retrieved products 
+2025-07-06 15:12:30.6110 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 15:13:12.1600 INFO PurchaseManagement.API.Services.UserService Service: Getting user with ID: 1 
+2025-07-06 15:13:12.2203 INFO PurchaseManagement.API.Services.UserService Service: Successfully retrieved user moayyad (ID: 1) 
+2025-07-06 16:27:25.0998 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 16:29:20.6596 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 16:29:29.6281 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: string 
+2025-07-06 16:29:29.6281 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: string 
+2025-07-06 16:29:31.4927 ERROR PurchaseManagement.API.Services.AuthService Error during login for username: string Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'LastLoginAt'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at PurchaseManagement.API.Services.AuthService.LoginAsync(LoginRequestDto loginRequest) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\AuthService.cs:line 42
+ClientConnectionId:60664c8c-4db7-4d36-b225-a4d77d0141e8
+Error Number:207,State:1,Class:16
+2025-07-06 16:29:31.5510 WARN PurchaseManagement.API.Controllers.AuthController Login failed for user: string 
+2025-07-06 16:29:44.2244 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: moayyad 
+2025-07-06 16:29:44.2244 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: moayyad 
+2025-07-06 16:29:44.2884 ERROR PurchaseManagement.API.Services.AuthService Error during login for username: moayyad Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'LastLoginAt'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at PurchaseManagement.API.Services.AuthService.LoginAsync(LoginRequestDto loginRequest) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\AuthService.cs:line 42
+ClientConnectionId:60664c8c-4db7-4d36-b225-a4d77d0141e8
+Error Number:207,State:1,Class:16
+2025-07-06 16:29:44.2904 WARN PurchaseManagement.API.Controllers.AuthController Login failed for user: moayyad 
+2025-07-06 16:32:37.3384 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 16:32:45.8826 INFO PurchaseManagement.API.Controllers.UsersController Getting all users 
+2025-07-06 16:32:45.8826 INFO PurchaseManagement.API.Services.UserService Fetching all users 
+2025-07-06 16:32:47.2790 ERROR PurchaseManagement.API.Services.UserService Error fetching all users Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'LastLoginAt'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at PurchaseManagement.API.Services.UserService.GetAllUsersAsync() in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\UserService.cs:line 260
+ClientConnectionId:27c87e07-4be5-48ec-acd1-66b9a166ff0c
+Error Number:207,State:1,Class:16
+2025-07-06 16:32:47.3646 ERROR PurchaseManagement.API.Controllers.UsersController Error getting all users Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'LastLoginAt'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at PurchaseManagement.API.Services.UserService.GetAllUsersAsync() in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\UserService.cs:line 260
+   at PurchaseManagement.API.Controllers.UsersController.GetAllUsers() in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\UsersController.cs:line 38
+ClientConnectionId:27c87e07-4be5-48ec-acd1-66b9a166ff0c
+Error Number:207,State:1,Class:16
+2025-07-06 16:36:44.3773 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 16:36:56.6210 INFO PurchaseManagement.API.Controllers.UsersController Getting all users 
+2025-07-06 16:36:56.6350 INFO PurchaseManagement.API.Services.UserService Fetching all users 
+2025-07-06 16:36:57.9586 INFO PurchaseManagement.API.Services.UserService Successfully fetched 1 users 
+2025-07-06 16:37:08.3416 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: string 
+2025-07-06 16:37:08.4414 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: string 
+2025-07-06 16:37:08.5603 WARN PurchaseManagement.API.Services.AuthService Login failed - User not found: string 
+2025-07-06 16:37:08.5603 WARN PurchaseManagement.API.Controllers.AuthController Login failed for user: string 
+2025-07-06 16:38:58.1071 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 16:42:10.1816 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 16:42:18.4076 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: string 
+2025-07-06 16:42:18.4076 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: string 
+2025-07-06 16:42:19.9001 WARN PurchaseManagement.API.Services.AuthService Login failed - User not found: string 
+2025-07-06 16:42:19.9001 WARN PurchaseManagement.API.Controllers.AuthController Login failed for user: string 
+2025-07-06 16:42:31.1139 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: moayyad 
+2025-07-06 16:42:31.1139 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: moayyad 
+2025-07-06 16:42:31.5209 ERROR PurchaseManagement.API.Services.AuthService Error during login for username: moayyad BCrypt.Net.SaltParseException: Invalid salt version
+   at BCrypt.Net.BCrypt.HashPassword(String inputKey, String salt, Boolean enhancedEntropy, HashType hashType)
+   at BCrypt.Net.BCrypt.Verify(String text, String hash, Boolean enhancedEntropy, HashType hashType)
+   at PurchaseManagement.API.Services.AuthService.VerifyPassword(String password, String hash) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\AuthService.cs:line 199
+   at PurchaseManagement.API.Services.AuthService.LoginAsync(LoginRequestDto loginRequest) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\AuthService.cs:line 52
+2025-07-06 16:42:31.5539 WARN PurchaseManagement.API.Controllers.AuthController Login failed for user: moayyad 
+2025-07-06 16:44:10.1554 WARN PurchaseManagement.API.Controllers.AuthController Invalid user ID in token 
+2025-07-06 16:44:21.5843 INFO PurchaseManagement.API.Controllers.UsersController Getting all users 
+2025-07-06 16:44:21.5865 INFO PurchaseManagement.API.Services.UserService Fetching all users 
+2025-07-06 16:44:21.6644 INFO PurchaseManagement.API.Services.UserService Successfully fetched 1 users 
+2025-07-06 16:44:53.3026 INFO PurchaseManagement.API.Controllers.UsersController Creating new user: mallouh 
+2025-07-06 16:44:53.3045 INFO PurchaseManagement.API.Services.UserService Creating new user: mallouh 
+2025-07-06 16:44:53.8843 INFO PurchaseManagement.API.Services.UserService Successfully created user: mallouh with ID: 2 
+2025-07-06 16:44:53.8843 INFO PurchaseManagement.API.Controllers.UsersController User created successfully: mallouh 
+2025-07-06 16:45:29.3855 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 16:45:29.3855 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 16:45:29.9851 INFO PurchaseManagement.API.Services.AuthService Login successful for user: mallouh 
+2025-07-06 16:45:29.9851 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: mallouh 
+2025-07-06 16:46:20.9698 WARN PurchaseManagement.API.Controllers.AuthController Invalid user ID in token 
+2025-07-06 16:46:41.2069 INFO PurchaseManagement.API.Controllers.AuthController User logged out:  
+2025-07-06 16:46:44.6695 INFO PurchaseManagement.API.Controllers.AuthController User logged out:  
+2025-07-06 16:46:45.7301 INFO PurchaseManagement.API.Controllers.AuthController User logged out:  
+2025-07-06 16:46:56.9806 INFO PurchaseManagement.API.Controllers.UsersController Getting user by ID: 2 
+2025-07-06 16:46:56.9806 INFO PurchaseManagement.API.Services.UserService Fetching user with ID: 2 
+2025-07-06 16:46:57.0033 INFO PurchaseManagement.API.Services.UserService Successfully fetched user: mallouh 
+2025-07-06 16:47:11.4173 INFO PurchaseManagement.API.Controllers.UsersController Toggling user status - ID: 2, Active: True 
+2025-07-06 16:47:11.4173 INFO PurchaseManagement.API.Services.UserService Toggling user status - ID: 2, Active: True 
+2025-07-06 16:47:11.4631 INFO PurchaseManagement.API.Services.UserService Successfully toggled user status: mallouh - Active: True 
+2025-07-06 16:47:11.4631 INFO PurchaseManagement.API.Controllers.UsersController User status toggled successfully - ID: 2, Active: True 
+2025-07-06 16:47:18.1945 INFO PurchaseManagement.API.Controllers.UsersController Toggling user status - ID: 2, Active: True 
+2025-07-06 16:47:18.1947 INFO PurchaseManagement.API.Services.UserService Toggling user status - ID: 2, Active: True 
+2025-07-06 16:47:18.1947 INFO PurchaseManagement.API.Services.UserService Successfully toggled user status: mallouh - Active: True 
+2025-07-06 16:47:18.1947 INFO PurchaseManagement.API.Controllers.UsersController User status toggled successfully - ID: 2, Active: True 
+2025-07-06 16:47:21.1534 INFO PurchaseManagement.API.Controllers.UsersController Toggling user status - ID: 2, Active: True 
+2025-07-06 16:47:21.1534 INFO PurchaseManagement.API.Services.UserService Toggling user status - ID: 2, Active: True 
+2025-07-06 16:47:21.1534 INFO PurchaseManagement.API.Services.UserService Successfully toggled user status: mallouh - Active: True 
+2025-07-06 16:47:21.1534 INFO PurchaseManagement.API.Controllers.UsersController User status toggled successfully - ID: 2, Active: True 
+2025-07-06 17:22:59.7174 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 17:27:09.0243 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 17:27:09.0243 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 17:27:10.9531 WARN PurchaseManagement.API.Services.AuthService Login failed - Invalid password for user: mallouh 
+2025-07-06 17:27:10.9531 WARN PurchaseManagement.API.Controllers.AuthController Login failed for user: mallouh 
+2025-07-06 17:27:16.1048 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 17:27:16.1048 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 17:27:16.5778 INFO PurchaseManagement.API.Services.AuthService Login successful for user: mallouh 
+2025-07-06 17:27:16.5778 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: mallouh 
+2025-07-06 17:30:21.9577 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 17:30:21.9577 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 17:30:22.1867 INFO PurchaseManagement.API.Services.AuthService Login successful for user: mallouh 
+2025-07-06 17:30:22.1867 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: mallouh 
+2025-07-06 17:31:23.7066 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 17:31:23.7066 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 17:31:23.8789 INFO PurchaseManagement.API.Services.AuthService Login successful for user: mallouh 
+2025-07-06 17:31:23.8789 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: mallouh 
+2025-07-06 17:31:38.1998 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 17:31:38.1998 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 17:31:38.4005 INFO PurchaseManagement.API.Services.AuthService Login successful for user: mallouh 
+2025-07-06 17:31:38.4005 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: mallouh 
+2025-07-06 18:17:01.2962 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 18:17:47.9501 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 18:17:47.9501 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 18:17:49.9324 INFO PurchaseManagement.API.Services.AuthService Login successful for user: mallouh 
+2025-07-06 18:17:49.9324 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: mallouh 
+2025-07-06 18:18:35.2000 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 18:18:35.2000 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 18:18:35.5638 INFO PurchaseManagement.API.Services.AuthService Login successful for user: mallouh 
+2025-07-06 18:18:35.5638 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: mallouh 
+2025-07-06 18:24:52.8500 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 18:24:52.8505 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 18:24:53.1439 INFO PurchaseManagement.API.Services.AuthService Login successful for user: mallouh 
+2025-07-06 18:24:53.1439 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: mallouh 
+2025-07-06 18:30:18.7528 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 18:30:37.6912 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 18:30:37.6912 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 18:30:39.6287 INFO PurchaseManagement.API.Services.AuthService Login successful for user: mallouh 
+2025-07-06 18:30:39.6287 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: mallouh 
+2025-07-06 18:31:25.3102 INFO PurchaseManagement.API.Controllers.UsersController Creating new user: mallouh 
+2025-07-06 18:31:25.3102 INFO PurchaseManagement.API.Services.UserService Creating new user: mallouh 
+2025-07-06 18:31:25.3536 WARN PurchaseManagement.API.Services.UserService Username already exists: mallouh 
+2025-07-06 18:31:25.4028 ERROR PurchaseManagement.API.Services.UserService Error creating user: mallouh System.InvalidOperationException: Username already exists
+   at PurchaseManagement.API.Services.UserService.CreateUserAsync(CreateUserDto createUserDto) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\UserService.cs:line 336
+2025-07-06 18:31:25.8519 WARN PurchaseManagement.API.Controllers.UsersController Invalid operation during user creation: mallouh System.InvalidOperationException: Username already exists
+   at PurchaseManagement.API.Services.UserService.CreateUserAsync(CreateUserDto createUserDto) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\UserService.cs:line 336
+   at PurchaseManagement.API.Controllers.UsersController.CreateUser(CreateUserDto createUserDto) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\UsersController.cs:line 96
+2025-07-06 18:31:41.4052 INFO PurchaseManagement.API.Controllers.UsersController Getting all users 
+2025-07-06 18:31:41.4052 INFO PurchaseManagement.API.Services.UserService Fetching all users 
+2025-07-06 18:31:41.4974 INFO PurchaseManagement.API.Services.UserService Successfully fetched 1 users 
+2025-07-06 18:36:47.8720 INFO PurchaseManagement.API.Controllers.UsersController Getting all users 
+2025-07-06 18:36:47.8720 INFO PurchaseManagement.API.Services.UserService Fetching all users 
+2025-07-06 18:36:47.8926 INFO PurchaseManagement.API.Services.UserService Successfully fetched 1 users 
+2025-07-06 18:36:59.2613 INFO PurchaseManagement.API.Controllers.AuthController Password change request for user ID: 2 
+2025-07-06 18:36:59.7938 INFO PurchaseManagement.API.Services.AuthService Password changed successfully for user: 2 
+2025-07-06 18:36:59.7938 INFO PurchaseManagement.API.Controllers.AuthController Password changed successfully for user ID: 2 
+2025-07-06 19:16:13.3694 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 19:18:41.7334 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 19:18:41.7334 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 19:18:43.5163 WARN PurchaseManagement.API.Services.AuthService Login failed - Invalid password for user: mallouh 
+2025-07-06 19:18:43.5163 WARN PurchaseManagement.API.Controllers.AuthController Login failed for user: mallouh 
+2025-07-06 19:18:46.3782 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 19:18:46.3782 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 19:18:46.8064 INFO PurchaseManagement.API.Services.AuthService Login successful for user: mallouh 
+2025-07-06 19:18:46.8064 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: mallouh 
+2025-07-06 19:19:04.8949 INFO PurchaseManagement.API.Controllers.UsersController Getting all users 
+2025-07-06 19:19:04.8949 INFO PurchaseManagement.API.Services.UserService Fetching all users 
+2025-07-06 19:19:04.9781 INFO PurchaseManagement.API.Services.UserService Successfully fetched 1 users 
+2025-07-06 19:20:55.4062 INFO PurchaseManagement.API.Controllers.UsersController Toggling user status - ID: 2, Active: False 
+2025-07-06 19:20:55.4062 INFO PurchaseManagement.API.Services.UserService Toggling user status - ID: 2, Active: False 
+2025-07-06 19:20:55.4849 WARN PurchaseManagement.API.Services.UserService Cannot deactivate the last admin user 
+2025-07-06 19:20:55.5127 ERROR PurchaseManagement.API.Services.UserService Error toggling user status with ID: 2 System.InvalidOperationException: Cannot deactivate the last admin user
+   at PurchaseManagement.API.Services.UserService.ToggleUserStatusAsync(Int32 id, Boolean isActive) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\UserService.cs:line 486
+2025-07-06 19:20:55.5850 WARN PurchaseManagement.API.Controllers.UsersController Invalid operation during user status toggle: 2 System.InvalidOperationException: Cannot deactivate the last admin user
+   at PurchaseManagement.API.Services.UserService.ToggleUserStatusAsync(Int32 id, Boolean isActive) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\UserService.cs:line 486
+   at PurchaseManagement.API.Controllers.UsersController.ToggleUserStatus(Int32 id, ToggleUserStatusDto toggleStatusDto) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\UsersController.cs:line 204
+2025-07-06 19:21:03.3516 INFO PurchaseManagement.API.Controllers.UsersController Toggling user status - ID: 2, Active: True 
+2025-07-06 19:21:03.3516 INFO PurchaseManagement.API.Services.UserService Toggling user status - ID: 2, Active: True 
+2025-07-06 19:21:03.3516 INFO PurchaseManagement.API.Services.UserService Successfully toggled user status: mallouh - Active: True 
+2025-07-06 19:21:03.3516 INFO PurchaseManagement.API.Controllers.UsersController User status toggled successfully - ID: 2, Active: True 
+2025-07-06 19:29:25.5000 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 19:29:49.5482 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 19:29:49.5482 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 19:29:51.3765 INFO PurchaseManagement.API.Services.AuthService Login successful for user: mallouh 
+2025-07-06 19:29:51.3765 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: mallouh 
+2025-07-06 19:30:20.5545 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: mallouh 
+2025-07-06 19:30:20.5545 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: mallouh 
+2025-07-06 19:30:20.9047 INFO PurchaseManagement.API.Services.AuthService Login successful for user: mallouh 
+2025-07-06 19:30:20.9047 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: mallouh 
+2025-07-06 19:31:17.4280 INFO PurchaseManagement.API.Controllers.UsersController Creating new user: moayyad 
+2025-07-06 19:31:17.4291 INFO PurchaseManagement.API.Services.UserService Creating new user: moayyad 
+2025-07-06 19:31:17.7069 INFO PurchaseManagement.API.Services.UserService Successfully created user: moayyad with ID: 6 
+2025-07-06 19:31:17.7069 INFO PurchaseManagement.API.Controllers.UsersController User created successfully: moayyad 
+2025-07-06 19:31:54.1293 INFO PurchaseManagement.API.Controllers.AuthController User logged out: mallouh 
+2025-07-06 19:31:57.3618 INFO PurchaseManagement.API.Controllers.AuthController User logged out: mallouh 
+2025-07-06 19:32:14.2014 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: moayyad 
+2025-07-06 19:32:14.2014 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: moayyad 
+2025-07-06 19:32:14.3724 INFO PurchaseManagement.API.Services.AuthService Login successful for user: moayyad 
+2025-07-06 19:32:14.3724 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: moayyad 
+2025-07-06 19:32:56.6221 INFO PurchaseManagement.API.Controllers.UsersController Creating new user: wrong 
+2025-07-06 19:32:56.6221 INFO PurchaseManagement.API.Services.UserService Creating new user: wrong 
+2025-07-06 19:32:56.8381 INFO PurchaseManagement.API.Services.UserService Successfully created user: wrong with ID: 7 
+2025-07-06 19:32:56.8381 INFO PurchaseManagement.API.Controllers.UsersController User created successfully: wrong 
+2025-07-06 19:44:52.2612 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-06 19:45:22.5004 INFO PurchaseManagement.API.Controllers.AuthController Login request received for: moayyad 
+2025-07-06 19:45:22.5004 INFO PurchaseManagement.API.Services.AuthService Login attempt for username: moayyad 
+2025-07-06 19:45:24.3179 INFO PurchaseManagement.API.Services.AuthService Login successful for user: moayyad 
+2025-07-06 19:45:24.3179 INFO PurchaseManagement.API.Controllers.AuthController Login successful for user: moayyad 
+2025-07-06 19:45:41.6344 INFO PurchaseManagement.API.Controllers.UsersController Creating new user: moayyad 
+2025-07-06 19:45:41.6344 INFO PurchaseManagement.API.Services.UserService Creating new user: moayyad 
+2025-07-06 19:45:41.6616 WARN PurchaseManagement.API.Services.UserService Username already exists: moayyad 
+2025-07-06 19:45:41.8012 ERROR PurchaseManagement.API.Services.UserService Error creating user: moayyad System.InvalidOperationException: Username already exists
+   at PurchaseManagement.API.Services.UserService.CreateUserAsync(CreateUserDto createUserDto) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\UserService.cs:line 336
+2025-07-06 19:45:41.8928 WARN PurchaseManagement.API.Controllers.UsersController Invalid operation during user creation: moayyad System.InvalidOperationException: Username already exists
+   at PurchaseManagement.API.Services.UserService.CreateUserAsync(CreateUserDto createUserDto) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Services\UserService.cs:line 336
+   at PurchaseManagement.API.Controllers.UsersController.CreateUser(CreateUserDto createUserDto) in D:\Anazeem_training\projects\Task1\PurchaseManagement.API\PurchaseManagement.API\Controllers\UsersController.cs:line 83
+2025-07-06 19:45:47.5389 INFO PurchaseManagement.API.Controllers.UsersController Getting all users 
+2025-07-06 19:45:47.5389 INFO PurchaseManagement.API.Services.UserService Fetching all users 
+2025-07-06 19:45:47.6763 INFO PurchaseManagement.API.Services.UserService Successfully fetched 3 users 
+2025-07-06 19:47:35.6196 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-06 23:05:12.8927 INFO PurchaseManagement.API.Program Purchase Management API starting up... 

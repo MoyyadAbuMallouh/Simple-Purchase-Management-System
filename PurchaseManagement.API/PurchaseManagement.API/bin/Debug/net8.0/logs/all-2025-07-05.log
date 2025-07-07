@@ -1,0 +1,88 @@
+2025-07-05 12:30:56.9505 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-05 12:31:18.8220 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-05 12:34:55.5612 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Creating purchase order for vendor ID 1 
+2025-07-05 12:34:55.5612 INFO PurchaseManagement.API.Services.PurchaseOrderService Creating purchase order for vendor ID 1 
+2025-07-05 12:34:55.8920 INFO PurchaseManagement.API.Services.ProductService Service: Checking if product exists with ID: 1 
+2025-07-05 12:34:55.9598 INFO PurchaseManagement.API.Services.ProductService Service: Product 1 exists: True 
+2025-07-05 12:44:07.0751 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-05 12:44:19.0385 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-05 12:44:55.8898 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Getting all products 
+2025-07-05 12:44:55.8898 INFO PurchaseManagement.API.Services.ProductService Service: Getting all products 
+2025-07-05 12:44:55.9825 INFO PurchaseManagement.API.Services.ProductService Service: Successfully retrieved 3 products 
+2025-07-05 12:44:55.9825 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Successfully retrieved products 
+2025-07-05 12:45:16.7748 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Getting product with ID: 1 
+2025-07-05 12:45:16.7748 INFO PurchaseManagement.API.Services.ProductService Service: Getting product with ID: 1 
+2025-07-05 12:45:17.0077 INFO PurchaseManagement.API.Services.ProductService Service: Successfully retrieved product Laptop (ID: 1) 
+2025-07-05 12:45:17.0077 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Successfully retrieved product 1 
+2025-07-05 12:48:19.2263 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-05 12:48:26.6247 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-05 12:48:57.7770 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Deleting purchase order ID 2 
+2025-07-05 12:49:03.8267 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Deleting purchase order ID 1 
+2025-07-05 12:49:04.1583 WARN PurchaseManagement.API.Controllers.PurchaseOrdersController Purchase order with ID 1 not found 
+2025-07-05 12:49:08.0122 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Deleting purchase order ID 3 
+2025-07-05 12:49:15.4512 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-05 12:49:35.9176 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Creating purchase order for vendor ID 1 
+2025-07-05 12:49:35.9176 INFO PurchaseManagement.API.Services.PurchaseOrderService Creating purchase order for vendor ID 1 
+2025-07-05 12:49:35.9692 INFO PurchaseManagement.API.Services.ProductService Service: Checking if product exists with ID: 1 
+2025-07-05 12:49:36.0197 INFO PurchaseManagement.API.Services.ProductService Service: Product 1 exists: True 
+2025-07-05 12:58:31.4300 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-05 12:58:38.7101 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-05 12:59:36.6415 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Creating purchase order for vendor ID 2 
+2025-07-05 12:59:36.6415 INFO PurchaseManagement.API.Services.PurchaseOrderService Creating purchase order for vendor ID 2 
+2025-07-05 12:59:36.8124 INFO PurchaseManagement.API.Services.ProductService Service: Checking if product exists with ID: 2 
+2025-07-05 12:59:36.8660 INFO PurchaseManagement.API.Services.ProductService Service: Product 2 exists: True 
+2025-07-05 12:59:56.9386 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-05 13:05:19.2616 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-05 13:05:26.5028 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-05 13:05:51.9051 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Creating purchase order for vendor ID 2 
+2025-07-05 13:05:51.9051 INFO PurchaseManagement.API.Services.PurchaseOrderService Creating purchase order for vendor ID 2 
+2025-07-05 13:05:52.0806 INFO PurchaseManagement.API.Services.ProductService Service: Checking if product exists with ID: 3 
+2025-07-05 13:05:52.1371 INFO PurchaseManagement.API.Services.ProductService Service: Product 3 exists: False 
+2025-07-05 13:05:52.2928 WARN PurchaseManagement.API.Controllers.PurchaseOrdersController Product(s) not found: 3 
+2025-07-05 13:05:59.7799 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Creating purchase order for vendor ID 2 
+2025-07-05 13:05:59.7799 INFO PurchaseManagement.API.Services.PurchaseOrderService Creating purchase order for vendor ID 2 
+2025-07-05 13:05:59.9236 INFO PurchaseManagement.API.Services.ProductService Service: Checking if product exists with ID: 2 
+2025-07-05 13:05:59.9236 INFO PurchaseManagement.API.Services.ProductService Service: Product 2 exists: True 
+2025-07-05 13:06:10.1503 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-05 13:09:11.2751 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Getting product with ID: 1 
+2025-07-05 13:09:11.2751 INFO PurchaseManagement.API.Services.ProductService Service: Getting product with ID: 1 
+2025-07-05 13:09:11.3181 INFO PurchaseManagement.API.Services.ProductService Service: Successfully retrieved product Laptop (ID: 1) 
+2025-07-05 13:09:11.3198 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Successfully retrieved product 1 
+2025-07-05 13:20:31.4944 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-05 13:21:02.5528 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Creating purchase order for vendor ID 1 
+2025-07-05 13:21:02.5528 INFO PurchaseManagement.API.Services.PurchaseOrderService Creating purchase order for vendor ID 1 
+2025-07-05 13:21:05.5293 INFO PurchaseManagement.API.Services.ProductService Service: Checking if product exists with ID: 1 
+2025-07-05 13:21:05.5909 INFO PurchaseManagement.API.Services.ProductService Service: Product 1 exists: True 
+2025-07-05 13:21:11.9760 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-05 13:22:37.8670 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-05 13:35:38.2039 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-05 13:36:01.6946 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Creating purchase order for vendor ID 1 
+2025-07-05 13:36:01.7163 INFO PurchaseManagement.API.Services.PurchaseOrderService Creating purchase order for vendor ID 1 
+2025-07-05 13:36:04.6542 INFO PurchaseManagement.API.Services.ProductService Service: Checking if product exists with ID: 1 
+2025-07-05 13:36:04.7250 INFO PurchaseManagement.API.Services.ProductService Service: Product 1 exists: True 
+2025-07-05 13:36:27.8808 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-05 13:37:40.9056 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting purchase order with ID 8 
+2025-07-05 13:38:57.3222 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-05 13:43:34.9356 INFO PurchaseManagement.API.Program Purchase Management API starting up... 
+2025-07-05 13:43:48.7029 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-05 13:44:12.1421 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Deleting purchase order ID 4 
+2025-07-05 13:44:14.2977 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Deleting purchase order ID 5 
+2025-07-05 13:44:15.8750 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Deleting purchase order ID 6 
+2025-07-05 13:44:17.1851 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Deleting purchase order ID 7 
+2025-07-05 13:44:20.8180 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-05 13:44:39.1342 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Creating purchase order for vendor ID 2 
+2025-07-05 13:44:39.1342 INFO PurchaseManagement.API.Services.PurchaseOrderService Creating purchase order for vendor ID 2 
+2025-07-05 13:44:39.1863 INFO PurchaseManagement.API.Services.ProductService Service: Checking if product exists with ID: 2 
+2025-07-05 13:44:39.2405 INFO PurchaseManagement.API.Services.ProductService Service: Product 2 exists: True 
+2025-07-05 13:44:53.1508 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Getting all products 
+2025-07-05 13:44:53.1508 INFO PurchaseManagement.API.Services.ProductService Service: Getting all products 
+2025-07-05 13:44:53.1678 INFO PurchaseManagement.API.Services.ProductService Service: Successfully retrieved 3 products 
+2025-07-05 13:44:53.1678 INFO PurchaseManagement.API.Controllers.ProductsController Controller: Successfully retrieved products 
+2025-07-05 13:45:16.8212 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Updating purchase order ID 9 
+2025-07-05 13:45:45.3417 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting all purchase orders 
+2025-07-05 13:46:02.7531 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting purchase order with ID 2 
+2025-07-05 13:46:02.9557 WARN PurchaseManagement.API.Controllers.PurchaseOrdersController Purchase order with ID 2 not found 
+2025-07-05 13:46:07.9280 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting purchase order with ID 9 
+2025-07-05 13:46:29.0518 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting purchase order with ID 9 
+2025-07-05 13:46:31.4338 INFO PurchaseManagement.API.Controllers.PurchaseOrdersController Getting purchase order with ID 2 
+2025-07-05 13:46:31.5729 WARN PurchaseManagement.API.Controllers.PurchaseOrdersController Purchase order with ID 2 not found 
